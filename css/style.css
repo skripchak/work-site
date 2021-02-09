@@ -1,24 +1,107 @@
+@font-face {
+
+    font-family: 'myriad-light';
+
+    src: url('../fonts/Myriad-Pro-Light.ttf');
+}
+@font-face {
+
+    font-family: 'myriad-bold';
+
+    src: url('../fonts/Myriad-pro-Bold.otf');
+}
+@font-face {
+
+    font-family: 'myriad-regular';
+
+    src: url('../fonts/Myriad-pro-regular.otf');
+}
+@font-face{
+
+    font-family: 'trebuschet';
+
+    src: url("../fonts/trebuschet.ttf");
+}
+
 body{
     max-height: content-box;
     margin: 0;
     padding: 0;
 }
-/*header{*/
-/*    border-style: solid;*/
-/*    border-width: 2px;*/
-/*    border-color: green;*/
-/*}*/
 
-/*section{*/
-/*    border-style: solid;*/
-/*    border-width: 2px;*/
-/*    border-color: black;*/
-/*}*/
-/*footer{*/
-/*    border-style: solid;*/
-/*    border-width: 2px;*/
-/*    border-color: red;*/
-/*}*/
+button{
+    color: white;
+    font-family: trebuschet;
+}
+
+.recomend{
+    font-size: 2.25rem;
+    font-weight: 300;
+    max-width: 339px;
+}
+
+.content{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.center_left_block{
+    border: 3px solid #e85f20;
+    height: 297px;
+    display: flex;
+    max-width: 500px;
+}
+
+.center_right_block{
+    border: 3px solid #02c466;
+    height: 297px;
+    display: flex;
+    max-width: 500px;
+}
+
+.employees{
+    display: flex;
+    align-items: center;
+    max-width: 273px;
+}
+
+.icon_l{
+    margin: 0 24px 0 0;
+}
+
+p.orange{
+    color: #e85f20;
+    font-size: 2.5rem;
+    margin: 0 13px 0 9px;
+}
+
+p.green{
+    color: #02c466;
+    font-size: 2.5rem;
+    margin: 0 13px 0 9px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
 
 .header{
     min-height: 65px;
@@ -31,6 +114,7 @@ body{
     font-weight: 700;
     line-height: 24px;
     color: #2457e8;
+    font-family: myriad-bold;
 }
 
 .header_top .menu{
@@ -65,6 +149,7 @@ body{
     text-align: center;
     text-decoration: none;
     color: #000000;
+    font-family: myriad-regular;
 }
 
 .header_center{
@@ -81,6 +166,7 @@ body{
     font-weight: 300;
     text-align: center;
     color: #2457e8;
+    font-family: myriad-bold;
 }
 
 .header_center .text{
@@ -94,6 +180,8 @@ body{
     margin-top: 0;
     /*line-height: 181px;*/
     text-align: center;
+    font-family: 'myriad-light';
+
 }
 
 .photo img{
@@ -111,6 +199,7 @@ body{
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+    font-family: myriad-light;
 }
 
 .header_bottom .freestyle .h1{
@@ -118,7 +207,6 @@ body{
     font-weight: 100;
     margin-bottom: 60px;
     color: #000000;
-
 }
 
 .header_bottom .freestyle .text{
@@ -145,6 +233,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     background: rgba(36,87,232, 0.9) url("../images/fon.png") no-repeat ;
+    background-size: cover;
 }
 
 
@@ -153,6 +242,7 @@ body{
     flex-direction: row;
     justify-content: center;
     max-width: 100%;
+    font-family: myriad-light;
 }
 .header_down .text_top h1{
     max-width: 600px;
@@ -173,12 +263,14 @@ body{
     font-weight: 700;
     color: #dcc757;
     padding-bottom: 81px;
+    font-family: myriad-bold;
 }
 
 .header_down .small_text .p2{
     font-size: 14px;
     font-weight: 400;
     color: #ffffff;
+    font-family: myriad-regular;
 }
 
 .header_down .bottom_block{
@@ -186,6 +278,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    font-family: myriad-bold;
 }
 
 .header_down .bottom_block .big_text .p1{
@@ -212,6 +305,7 @@ body{
     font-weight: 400;
     color: white;
     line-height: 24px;
+    font-family: myriad-regular;
 }
 
 .header_down .bottom_block .button_video{
@@ -226,6 +320,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
+    font-family: myriad-light;
 }
 
 .section_top .block_top{
@@ -245,6 +340,7 @@ body{
 .section_top .block_top .h_text{
     font-size: 80px;
     font-weight: 700;
+    font-family: myriad-bold;
 }
 
 .section_top .block_top .h_text p{
@@ -268,6 +364,7 @@ body{
     font-size: 26px;
     font-weight: 400;
     margin-bottom:55px;
+    font-family: myriad-regular;
 }
 
 .block_center .right_block .txt{
@@ -307,6 +404,7 @@ body{
 
 .section_footer .text_header .top p {
     margin-bottom: 0;
+    font-family: myriad-bold;
 }
 
 .section_footer .text_header .foot{
@@ -335,6 +433,7 @@ body{
 .section_footer .up .menu_footer ul li .a1{
     color: #2457e8;
     font-weight: 700;
+    font-family: myriad-bold;
 }
 
 .section_footer .up{
@@ -348,6 +447,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
+    font-family: myriad-light;
 }
 
 .section_footer .center{
@@ -459,7 +559,7 @@ body{
 }
 
 .section_footer .center .right .right_up .p2 {
-    color: #e85f20;
+    color: #02c466;
     font-size: 42px;
     font-weight: 300;
     margin-top: 0;
@@ -492,6 +592,8 @@ body{
     height: 500px;
     display: flex;
     flex-direction: column;
+    background-color: #f2f2f2;
+    font-family: myriad-light;
 }
 
 .footer .footer_top{
@@ -516,7 +618,6 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     color: #666666;
-    padding-top: 100px;
 }
 
 .footer .footer_bottom .block_one{
@@ -524,9 +625,9 @@ body{
     flex-direction: column;
     justify-content: center;
     width: 206px;
-    height: 131px;
     align-items: center;
     text-align: center;
+    height: max-content;
 }
 
 .footer .footer_bottom .block_two{
@@ -534,7 +635,7 @@ body{
     flex-direction: column;
     justify-content: center;
     width: 206px;
-    height: 131px;
+    height: max-content;
     align-items: center;
     text-align: center;
 }
@@ -544,7 +645,7 @@ body{
     flex-direction: column;
     justify-content: center;
     width: 206px;
-    height: 131px;
+    height: max-content;
     align-items: center;
     text-align: center;
 }
@@ -554,7 +655,7 @@ body{
     flex-direction: column;
     justify-content: center;
     width: 206px;
-    height: 131px;
+    height: max-content;
     align-items: center;
     text-align: center;
 }
@@ -573,6 +674,23 @@ body{
 .footer .footer_bottom a{
     text-decoration: none;
     color: #24aae8;
+}
+
+footer{
+    height: 140px;
+    width: 100%;
+    font-family: myriad-light;
+}
+
+footer .wrapper{
+    width: 70%;
+    margin: auto;
+    padding: 49px 0;
+}
+
+footer p{
+    color: #999999;
+    font-size: 14px;
 }
 
 /*// Large devices (desktops, less than 1200px)*/
@@ -715,41 +833,39 @@ body{
         font-size: 2rem;
     }
 
-    .footer .footer_bottom {
-        flex-direction: column;
-        height: 100%;
-        align-items: center;
-        padding: 0;
+    /*.footer .footer_bottom {*/
+    /*    flex-direction: column;*/
+    /*    height: 100%;*/
+    /*    align-items: center;*/
+    /*    padding: 0;*/
 
-    }
+    /*}*/
 
-    .footer .footer_bottom .block_one {
-        height: 25%;
-        margin: 0 0 25px 0;
-    }
+    /*.footer .footer_bottom .block_one {*/
+    /*    height: 25%;*/
+    /*    margin: 0 0 25px 0;*/
+    /*}*/
 
-    .footer .footer_bottom .block_two {
-        height: 25%;
-        margin: 0 0 25px 0;
-    }
+    /*.footer .footer_bottom .block_two {*/
+    /*    height: 25%;*/
+    /*    margin: 0 0 25px 0;*/
+    /*}*/
 
-    .footer .footer_bottom .block_three {
-        height: 25%;
-        margin: 0 0 25px 0;
-    }
+    /*.footer .footer_bottom .block_three {*/
+    /*    height: 25%;*/
+    /*    margin: 0 0 25px 0;*/
+    /*}*/
 
-    .footer .footer_bottom .block_four {
-        height: 25%;
-        margin: 0 0 25px 0;
-    }
+    /*.footer .footer_bottom .block_four {*/
+    /*    height: 25%;*/
+    /*    margin: 0 0 25px 0;*/
+    /*}*/
 
     body{
         text-align: center;
     }
-}
 
-/*// Large devices (desktops, less than 1200px)*/
-@media (max-width: 1023px) {
+/*// Large devices (desktops, less than 1023px)*/
     .header_top .menu .center_menu ul{
         display: flex;
         flex-direction: column;
@@ -774,5 +890,45 @@ body{
     .footer{
         margin: 0;
         height: auto;
+    }
+
+    .right .text{
+        margin: auto;
+    }
+    .left .text{
+        margin: auto;
+    }
+
+    .content{
+        align-items: center;
+    }
+
+    .center_left_block{
+        margin: auto;
+    }
+    .center_right_block{
+        margin: auto;
+    }
+}
+@media (max-width: 1000px){
+    .footer .footer_bottom{
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .block_one{
+        flex: 1 0 50%;
+        margin: 0 0 15px 0;
+    }
+    .block_two{
+        flex: 1 0 50%;
+        margin: 0 0 15px 0;
+    }
+    .block_three{
+        flex: 1 0 50%;
+        margin: 0 0 15px 0;
+    }
+    .block_four{
+        flex: 1 0 50%;
+        margin: 0 0 15px 0;
     }
 }
