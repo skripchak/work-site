@@ -258,6 +258,10 @@ p.green{
     justify-content: space-evenly;
 }
 
+.info{
+    margin: 100px 0 0;
+}
+
 .header_down .small_text .p1{
     font-size: 14px;
     font-weight: 700;
@@ -702,6 +706,18 @@ footer p{
         width: 100%;
     }
 
+    .menu .center_menu ul li{
+        margin-bottom: 10px;
+    }
+
+    .logo{
+        margin-bottom: -20px;
+    }
+
+    .menu .button_top{
+        margin: 0 0 55px 0;
+    }
+
     header .header_top .menu{
         display: flex;
         flex-direction: column;
@@ -741,6 +757,10 @@ footer p{
 
     .section_top .block_top .h_text {
         font-size: 2rem;
+    }
+
+    .block_center .right_block .top_txt{
+        margin: 0 0 55px 25px;
     }
 
     .block_center .left_block img{
@@ -930,5 +950,28 @@ footer p{
     .block_four{
         flex: 1 0 50%;
         margin: 0 0 15px 0;
+    }
+}
+
+@media (max-width: 600px){
+    .block_one{
+        flex: 1 0 100%;
+        margin: 0 0 15px 0;
+        max-width: 200px;
+    }
+    .block_two{
+        flex: 1 0 100%;
+        margin: 0 0 15px 0;
+        max-width: 200px;
+    }
+    .block_three{
+        flex: 1 0 100%;
+        margin: 0 0 15px 0;
+        max-width: 200px;
+    }
+    .block_four{
+        flex: 1 0 100%;
+        margin: 0 0 15px 0;
+        max-width: 200px;
     }
 }
