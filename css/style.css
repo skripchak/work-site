@@ -170,7 +170,7 @@ p.green{
 }
 
 .business_products .text{
-    width: 100%;
+    width: 90%;
 }
 
 .business_products .text p{
@@ -235,7 +235,7 @@ p.green{
 }
 
 
-.next_degree .text_top{
+.blue_box .text_top{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -254,6 +254,8 @@ p.green{
 .blue_box .small_text{
     display: flex;
     justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
 }
 
 .info{
@@ -281,6 +283,11 @@ p.green{
     justify-content: space-around;
     align-items: center;
     font-family: myriad-bold;
+}
+
+.blue_box .bottom_block{
+    width: 80%;
+    margin: auto;
 }
 
 .blue_box .bottom_block .big_text .p1{
@@ -357,6 +364,8 @@ p.green{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
 }
 
 .block_center .right_block .top_txt{
@@ -440,8 +449,8 @@ p.green{
 
 .delivery_options .up{
     max-width: 722px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 80%;
+    margin: auto;
 }
 
 .delivery_options{
@@ -456,6 +465,8 @@ p.green{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
 }
 
 .delivery_options .center .left .left_up{
@@ -580,6 +591,8 @@ p.green{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 80%;
+    margin: auto;
 }
 
 .delivery_options .info a{
@@ -620,6 +633,8 @@ p.green{
     flex-direction: row;
     justify-content: space-evenly;
     color: #666666;
+    width: 80%;
+    margin: auto;
 }
 
 .additional_modules .footer_bottom .block_one{
