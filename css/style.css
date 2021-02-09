@@ -53,14 +53,14 @@ button{
     border: 3px solid #e85f20;
     height: 297px;
     display: flex;
-    max-width: 500px;
+    max-width: 430px;
 }
 
 .center_right_block{
     border: 3px solid #02c466;
     height: 297px;
     display: flex;
-    max-width: 500px;
+    max-width: 430px;
 }
 
 .employees{
@@ -214,6 +214,8 @@ p.green{
     font-size: 20px;
     font-weight: 300;
     line-height: 28px;
+    width: 80%;
+    margin: auto;
 }
 
 .next_degree .freestyle .button_down button{
@@ -712,6 +714,15 @@ footer p{
 
 /*// Large devices (desktops, less than 1200px)*/
 @media (max-width: 1023px) {
+    .delivery_options .center .left .left_up .button{
+        padding: 70px 0;
+    }
+
+    .delivery_options .center .right .right_up .button{
+        padding: 70px 0;
+    }
+
+
     .header_top .menu .center_menu ul{
         display: flex;
         flex-direction: column;
@@ -968,5 +979,20 @@ footer p{
     .block_top .p_text{
         width: 80%;
         margin: auto;
+    }
+}
+
+@media (max-width: 515px) {
+    .block_center .right_block .top_txt {
+        margin: 0;
+    }
+}
+
+@media (max-width: 300px) {
+   .recomend{
+       font-size: 1rem;
+   }
+    .employees p{
+        font-size: 0.5rem;
     }
 }
